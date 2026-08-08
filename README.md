@@ -1,11 +1,10 @@
 # homebrew-tap
 
-Homebrew casks for [jbeda](https://github.com/jbeda)'s tools, macOS only.
-Linux users: each tool's releases page has prebuilt tarballs, and Go tools
-install with `go install`.
+Homebrew casks for [jbeda](https://github.com/jbeda)'s tools.
 
 ```
-brew install jbeda/tap/mdreflow
+brew install jbeda/tap/mdreflow           # macOS
+brew install --cask jbeda/tap/mdreflow    # Linux (Homebrew 4.5+, preliminary)
 ```
 
 Or tap first, then install by name:
